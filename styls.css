@@ -1,0 +1,330 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: auto;
+    scrollbar-width: auto;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.bar {
+    background-color: #282C31;
+    width: 100vw;
+    height: 10vh;
+    position: fixed;
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+
+
+
+
+
+
+
+}
+
+nav {
+
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100px;
+    padding: 0;
+
+
+
+}
+
+.va-solutions {
+
+    width: 100px;
+   height: 60px; 
+    margin-left: 3rem;
+
+
+
+}
+
+.bar ul li {
+    display: flex;
+    text-align: right;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.bar a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    margin: 8px 3vw;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+
+
+nav a .bi{
+    margin: 1rem;
+    font-size: 15px;
+}
+nav .menu-right .bi{
+    font-size: 25px;
+    display: none;
+}
+ 
+main {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../vSolutions.web/img/Fundo.png);
+    background-position: center;
+    background-size: cover;
+ 
+
+
+}
+
+main h1 {
+    color: white;
+    margin-left: 10rem;
+    margin-top: 10rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 1000;
+    font-size: 35pt;
+}
+
+main h2 {
+    margin-left: 10rem;
+    margin-top: 2rem;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15pt;
+    font-weight: 100;
+    margin-bottom: 3rem;
+}
+main .contact{
+    margin-left: 10rem;
+  
+}
+main .contact {
+    background-color:#68AAFA;
+  padding: 1rem 3rem ;
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 12px;
+  
+}
+.contact:hover{
+    background-color:white;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:800px) {
+    nav .menu-right .bi{
+        font-size: 23px;
+        display: flex;
+        margin-right: 1.5rem;
+    }
+
+
+
+    .bar ul li {
+        display: none;
+        transition: 5s;
+    }
+
+
+
+    .bar {
+        text-align: center;
+        align-items: center;
+    }
+
+    .va-solutions {
+        margin-left: 0.5rem;
+        transition: all 1s;
+
+    }
+
+ 
+
+    main h1 {
+        color: white;
+        margin-top: 10rem;
+        margin-left: 5rem;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 8000;
+        font-size: 30pt;
+
+    }
+
+    main h2 {
+        margin-left: 5rem;
+        margin-top: 2rem;
+        color: white;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 12pt;
+        font-weight: 100;
+        margin-bottom: 3rem;
+
+    }
+
+ 
+
+
+}
+
+@media screen and (max-width:500px) {
+
+
+    nav .menu-right .bi{
+        font-size: 20px;
+        display: flex;
+        margin-right: 1.5rem;
+    }
+
+    .bar {
+
+        height: 50px;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        transition: 1s;
+    }
+
+    .va-solutions {
+        width: 80px;
+        height: 55px; 
+        margin-left: 0.5rem;
+
+
+    }
+
+    main h1 {
+        color: white;
+        margin-top: 10rem;
+        margin-left: 5rem;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 8000;
+        font-size: 25pt;
+
+    }
+
+    main h2 {
+        margin-left: 5rem;
+        margin-top: 2rem;
+        color: white;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 12pt;
+        font-weight: 100;
+        margin-bottom: 3rem;
+
+    }
+
+    main .contact {
+        margin-left:7rem;
+       
+      
+    }
+    main .contact {
+      
+      padding: 1rem 2.5rem ;
+      color: black;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 12px;
+      
+    }
+
+
+
+}
+
+@media screen and (max-width:350px) {
+    main h1 {
+        color: white;
+        margin-top: 10rem;
+        margin-left: 3rem;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 8000;
+        font-size: 20pt;
+
+    }
+
+    main h2 {
+        margin-left: 3rem;
+        margin-top: 2rem;
+        color: white;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 12pt;
+        font-weight: 100;
+        margin-bottom: 3rem;
+
+    }
+    main .contact {
+      
+        padding: 1rem 2rem ;
+        color: black;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 10px;
+        
+      }
+
+
+
+}
+
+@media screen and (max-width:250px) {    main h1 {
+    color: white;
+    margin-top: 10rem;
+    margin-left: 2rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 8000;
+    font-size: 20pt;
+
+}
+
+main h2 {
+    margin-left: 2rem;
+    margin-top: 2rem;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 10pt;
+    font-weight: 100;
+    margin-bottom: 3rem;
+
+}
+main .contact {
+  
+    padding: 1rem 2rem ;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 10px;
+    
+  }
+  main .contact {
+    margin-left:4rem;
+   
+  
+}
+
+
+}
